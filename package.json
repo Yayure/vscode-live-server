@@ -300,6 +300,13 @@
           "type": "string",
           "default": null,
           "description": "This the entry point of server when you're in multiroot workspace"
+        },
+        "liveServer.settings.mimetypes": {
+          "type": "object",
+          "default": {
+            "application/wasm": [".wasm"]
+          },
+          "description": "Set the MIME type of the extension file"
         }
       }
     }

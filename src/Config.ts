@@ -125,6 +125,10 @@ export class Config {
         return Config.getSettings<string>('multiRootWorkspaceName');
     }
 
+    public static get getMimetypes(): object {
+        return Config.getSettings<object>('mimetypes');
+    }
+
     public static setMutiRootWorkspaceName(val: string) {
        return Config.configuration.update('multiRootWorkspaceName', val, false);
     }
