@@ -303,10 +303,8 @@
         },
         "liveServer.settings.mimetypes": {
           "type": "object",
-          "default": {
-            "application/wasm": [".wasm"]
-          },
-          "description": "Set the MIME type of the extension file"
+          "default": {},
+          "description": "Set the MIME type of the extension file. Such as {'application/wasm': ['wasm']}"
         }
       }
     }

@@ -182,3 +182,10 @@
     
     * Tips: You don't need to set this setting, Live Server is smart enough, it'll eigher ask what you want or automatically set the correct workspace if open the server by right clicking any HTML file.    
     <hr>
+
+* **`liveServer.settings.mimetypes:`** : Set the MIME type of the extension file.
+
+    * Default: `{}`
+
+    * Tips: You can find the default extended MIME type [here](https://github.com/broofa/mime/blob/v1.6.0/types.json).   
+    <hr>

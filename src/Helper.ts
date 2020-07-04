@@ -120,6 +120,7 @@ export class Helper {
             wait: Config.getWait || 100,
             fullReload: Config.getfullReload,
             useBrowserExtension: Config.getUseWebExt,
+            mimetypes: Config.getMimetypes,
             onTagMissedCallback: onTagMissedCallback,
             mount: mount
         };

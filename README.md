@@ -53,6 +53,7 @@ _[Wanna try [LIVE SERVER++](https://github.com/ritwickdey/vscode-live-server-plu
 * CORS Enabled
 * Multi-root workspace supported.
 * Support for any file even dynamic pages through *[Live Server Web Extension](https://github.com/ritwickdey/live-server-web-extension)*.
+* Support to override or add extended MIME type based on [default configuration](https://github.com/broofa/mime/blob/v1.6.0/types.json).
 
 ## Installation
 Open VSCode and type `ctrl+P`, type `ext install ritwickdey.liveserver`.
